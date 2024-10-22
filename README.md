@@ -14,7 +14,7 @@ The main function in this module is `domsMatch`, which takes the following argum
 
 The function returns a pair of integers indicating the number of games won by each player.
 
-### Data Types
+## Data Types
 Domino: A type alias for a pair of integers representing a single domino.
 Board: Represents the current state of the board.
 History: A list of tuples containing the domino played, the player who played it, and the move number.
@@ -25,7 +25,7 @@ MoveNum: An integer representing the move number.
 Hand: A list of Domino representing a player's hand.
 DomsPlayer: A type alias for a function that decides which domino to play based on the current hand, board, player, and scores.
 
-###Functions
+## Functions
 shuffleDoms: Returns a shuffled set of dominoes given a random number generator.
 domsMatch: Plays a match of n games between two players.
 playGame: Plays a single game between two players.
@@ -40,12 +40,12 @@ simplePlayer: A simple player strategy that plays the first valid move.
 highestScoringMove: Finds the move which results in the highest score.
 smartPlayer: A more advanced player strategy that uses multiple strategies to maximize its chances of victory.
 
-###Player Strategies
+## Player Strategies
 simplePlayer: Plays the first valid move from the hand.
 smartPlayer: Uses various strategies to maximize its chances of victory, including high scoring, blocking, and safety moves.
 Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
-###License
+## License
 This project is licensed under the MIT License.
