@@ -14,16 +14,6 @@
        The Player (which will be one of P1 or P2)
        The current Scores
    The function returns a tuple containing the Domino to play and End to play it on.
-
-   Stub with types provided by Emma Norling (October 2023).
-
-   You should add your functions and any additional types that you require to your own copy of
-   this file. Before you submit, make sure you update this header documentation to remove these
-   instructions and replace them with authorship details and a brief summary of the file contents.
-
-   Similarly, remember you will be assessed not *just* on correctness, but also code style,
-   including (but not limited to) sensible naming, good functional decomposition, good layout,
-   and good comments.
  -}
 
 module DomsMatch where
